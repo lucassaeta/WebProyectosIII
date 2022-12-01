@@ -604,9 +604,58 @@ ul.btn li:last-child {
 /** products section **/
 
 .products {
-     margin-top: 90px;
      background: #f7f7f7;
-     padding: 90px 0 90px 0;
+     overflow-x: hidden !important;
+}
+
+.concreteProduct {
+     display: flex;
+     margin: 0 15vw;
+}
+
+.concreteProduct img {
+     width: 37vw;
+}
+
+.itemDescription {
+     padding: 12vh;
+}
+
+.itemDescription div {
+     margin-top: 2vh !important;
+}
+
+.itemInfo {
+     display: flex;
+     align-items: center;
+}
+
+.itemInfo p {
+     font-weight: bold;
+     margin-left: 2vw;
+     font-size: 1.2vw;
+}
+
+.testIt {
+     background-color: transparent;
+     border: #48ca95 solid 2px;
+     color: #48ca95 !important;
+     width: fit-content;
+     padding: 1vh 2vw;
+}
+
+.focused {
+     background: rgba(176, 176, 176, 0.15);
+}
+
+.testIt:hover {
+     background-color: #48ca95;
+     color: white !important;
+     transition: all 0.5s;
+}
+
+.itemDescription h2 {
+     font-weight: bold;
 }
 
 .our_products {
