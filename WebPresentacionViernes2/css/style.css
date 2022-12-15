@@ -314,7 +314,7 @@ ul.btn li:last-child {
 
 .navigation.navbar {
      float: right;
-     padding-top: 31px !important;
+     padding: 21px 0 !important;
      padding: 0;
 }
 
@@ -378,6 +378,8 @@ ul.btn li:last-child {
 }
 
 .logo img {
+     position: absolute;
+     top: -3vh;
      width: 6vw;
 }
 
